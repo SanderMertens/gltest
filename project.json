@@ -1,0 +1,16 @@
+{
+    "id": "gltest",
+    "type": "application",
+    "value": {
+        "author": "Jane Doe",
+        "description": "Air conditioners for drones",
+        "use": [
+            "bake.sdl2",
+            "bake.opengl"
+        ]
+    },
+    "lang.c": {
+        "lib": ["glew"],
+        "ldflags": ["-framework GLUT"]
+    }
+}
